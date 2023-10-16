@@ -47,4 +47,16 @@ form input.equal{
 form input.first-row{
     color: rgb(255, 156, 156);
 }
+@media only screen and (max-width: 370px) {
+    .container{
+        margin-top: 50px;
+        width: 93%;
+        margin-left: 10px;
+        height: 80vh;
+    }
+    .calculator {
+      display: grid;
+      margin: -30rem;
 
+    }
+  }
